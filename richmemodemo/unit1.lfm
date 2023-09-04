@@ -7,12 +7,13 @@ object Form1: TForm1
   ClientHeight = 240
   ClientWidth = 320
   DesignTimePPI = 144
+  OnResize = FormResize
   LCLVersion = '3.0.0.1'
   object RichMemo1: TRichMemo
-    Left = 0
-    Height = 239
-    Top = 0
-    Width = 320
+    Left = 16
+    Height = 207
+    Top = 16
+    Width = 288
     HideSelection = False
     Lines.Strings = (
       'RichMemo1'
